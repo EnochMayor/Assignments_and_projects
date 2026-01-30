@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
-*.json
+**/auth_keys/*.json
+**/*credentials*.json
 *.parquet
 __pycache__/
 *.py[codz]
