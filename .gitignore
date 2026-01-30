@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+*.json
+*.parquet
 __pycache__/
 *.py[codz]
 *$py.class
@@ -205,3 +207,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Terraform (never commit these)
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+crash.log
+crash.*.log
